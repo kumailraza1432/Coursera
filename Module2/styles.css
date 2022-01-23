@@ -7,13 +7,10 @@ h1 {
   color: black;
   position: relative;
   text-align: center;
-  font-family: sans-serif;
+  font-family: monospace;
   font-weight: bolder;
 }
 
-div2{
-    text-align: center;
-}
 .Chicken {
   position: relative;
   float: left;
@@ -50,10 +47,11 @@ div2{
   margin: 20px;
 }
 
-
+div2{
+    color: white;
+}
 .Tagline {
   position: relative;
-  text-align: center;
   height: 20px;
   width: 100px;
   display: flex;
@@ -66,7 +64,10 @@ div2{
   font-weight: bold;
   font-family: sans-serif;
   font-size: medium;
+  text-align: center;
 }
+
+
 .description{
     position: relative;
     height: 150px;
